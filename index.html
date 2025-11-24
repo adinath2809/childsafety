@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology for Child Safety</title>
+  <style>
+    * {box-sizing: border-box;}
+    body {margin: 0; padding: 0; font-family: "Segoe UI", Arial; background: #f3f4f6; color: #111827;}
+    header {background: linear-gradient(135deg, #1d4ed8, #0f172a); color: #fff; text-align: center; padding: 24px 16px;}
+    nav {background: #111827; padding: 10px; display: flex; justify-content: center; gap: 20px;}
+    nav a {color: #e5e7eb; text-decoration: none; font-weight: 600;}
+    nav a:hover {text-decoration: underline;}
+    .hero {
+      background: linear-gradient(120deg, rgba(15,23,42,0.82), rgba(37,99,235,0.82)),
+      url("https://images.pexels.com/photos/13041218/pexels-photo-13041218.jpeg") center/cover no-repeat;
+      color: #fff; text-align: center; padding: 60px 20px;
+    }
+    .hero h2 {margin: 0 0 8px; font-size: 1.8rem;}
+    .container {max-width: 1100px; margin: 24px auto 40px; padding: 0 16px;}
+    .section {background: #fff; padding: 22px; margin-bottom: 18px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.07);}
+    .section h2 {margin: 0 0 12px; border-bottom: 2px solid #e5e7eb; padding-bottom: 6px; color: #1d4ed8;}
+    ul {padding-left: 20px; line-height: 1.6;}
+    .highlight {background: #e9f2ff; border-left: 4px solid #60a5fa; padding: 10px; border-radius: 6px; margin-top: 10px;}
+    .cards {display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px;}
+    .card {background: #eef2ff; border-left: 5px solid #1d4ed8; border-radius: 10px; padding: 14px;}
+    
+    /* Gallery */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-top: 10px;
+    }
+    .gallery-item {
+      background: #f9fafb;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .gallery-item p {
+      font-size: .9rem;
+      color: #4b5563;
+      margin-top: 6px;
+    }
+
+    footer {background: #111827; text-align: center; color: #9ca3af; padding: 16px;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Technology for Child Safety</h1>
+  <p>Using digital tools responsibly to protect children in India</p>
+</header>
+
+<nav>
+  <a href="#intro">Introduction</a>
+  <a href="#need">Need</a>
+  <a href="#tech">Technologies</a>
+  <a href="#gallery">Indian Gallery</a>
+  <a href="#conclusion">Conclusion</a>
+</nav>
+
+<section class="hero">
+  <h2>Safe & Responsible Digital Growth for Children</h2>
+  <p>Technology can be a powerful support when used with guidance and protection.</p>
+</section>
+
+<div class="container">
+
+  <!-- Introduction -->
+  <section id="intro" class="section">
+    <h2>1. Introduction</h2>
+    <p>
+      The rapid rise of smartphones, online learning, and gaming means Indian children are interacting with digital tools daily.
+      While this supports learning and creativity, it also raises safety concerns such as cyberbullying, misuse of personal data,
+      and exposure to harmful content.
+    </p>
+    <div class="highlight"><strong>Goal:</strong> A safe digital environment where children learn, grow, and stay protected.</div>
+  </section>
+
+  <!-- Need -->
+  <section id="need" class="section">
+    <h2>2. Why Technology for Safety Is Needed</h2>
+    <ul>
+      <li>Early exposure to smartphones & social media.</li>
+      <li>Cyberbullying, online harassment & fake identities.</li>
+      <li>Unregulated online gaming & screen addiction.</li>
+      <li>Sharing photos & locations without awareness.</li>
+      <li>Need for real-time alerts & emergency support.</li>
+    </ul>
+  </section>
+
+  <!-- Technologies -->
+  <section id="tech" class="section">
+    <h2>3. Technologies Used for Child Safety</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>a) Parental Control Apps</h3>
+        <ul>
+          <li>Blocks unsafe websites & apps</li>
+          <li>Screen-time limits</li>
+          <li>Safe Search mode</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>b) Location Monitoring</h3>
+        <ul>
+          <li>GPS live tracking</li>
+          <li>Geofencing alerts</li>
+          <li>SOS emergency button</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>c) AI Content Filtering</h3>
+        <ul>
+          <li>Blocks adult & violent content</li>
+          <li>Detects abusive messages</li>
+          <li>Flags cyberbullying attempts</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>d) Smart Devices</h3>
+        <ul>
+          <li>Smartwatch with calling & GPS</li>
+          <li>ID band for school attendance</li>
+          <li>AI CCTV & home security</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Indian Gallery -->
+  <section id="gallery" class="section">
+    <h2>4. Indian Gallery – Real Examples</h2>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/1img.jpg" alt="Indian family using safe digital tools">
+        <p>Parents guiding children with digital safety.</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/2img.jpg" alt="Indian school computer lab">
+        <p>Schools promoting safe technology use.</p>
+      </div>
+
+      <div class="gallery-item">
+        <img src="images/3img.jpg" alt="Parent setting parental controls">
+        <p>Parental controls for child-friendly browsing.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Conclusion -->
+  <section id="conclusion" class="section">
+    <h2>5. Conclusion</h2>
+    <p>
+      Technology greatly benefits children when used safely and responsibly.  
+      With parental control tools, awareness, school support, and digital discipline,
+      children can enjoy technology while staying protected.
+    </p>
+  </section>
+
+</div>
+
+<footer>
+  © 2025 · Technology for Child Safety · For Academic Presentation
+</footer>
+
+</body>
+</html>
